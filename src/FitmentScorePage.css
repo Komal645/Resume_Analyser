@@ -1,0 +1,41 @@
+/* FitmentScorePage.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;   
+    text-align: justify;   
+  }
+  .container {
+    background-color: #97f130;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+  } 
+  h1 {
+    color: black;
+  }
+  h2 {
+    color:black;
+    font-family: Montserrat, sans-serif;
+  }  
+  p {
+    color:black;
+    line-height: 1.5;
+  }
+  /* styles.css */
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+  

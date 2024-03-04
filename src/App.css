@@ -1,0 +1,131 @@
+.center-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* 100% of the viewport height */
+  
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("C:\Users\Asus\OneDrive\Desktop\Axis Main Project\Frontend_openAI\src\Image1 (2).jpg"); 
+  background-size: cover;
+  
+}
+.center-box {
+  text-align: center;
+  padding: 40px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f7f7f7;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100%;
+  transition: transform 0.3s ease-in-out; 
+}
+
+.center-box:hover {
+  transform: scale(1.02); /* Increasing size on hover */
+}
+
+.center-box h1 {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 24px; /* Increasing font size of the heading */
+}
+
+.center-box label {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #555; 
+}
+
+.center-box input[type="file"],
+.center-box textarea {
+  width: calc(100% - 20px);
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: border-color 0.3s ease; 
+}
+
+.center-box input[type="file"]:focus,
+.center-box textarea:focus {
+  border-color: #f151bc; 
+}
+
+.center-box button {
+  background-color:greenyellow;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.center-box button:hover {
+  background-color: rgb(193, 245, 113);
+}
+
+.center-box h2 {
+  margin-top: 20px;
+  color: #333;
+}
+
+.center-box p {
+  color: #555;
+  font-size: 18px;
+  margin-top: 10px;
+}
+/* styling for the job title input */
+.center-box select {
+  width: calc(100% - 20px);
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: border-color 0.3s ease; 
+}
+
+.center-box select:focus {
+  border-color: #4caf50; 
+}
+
+
+.center-box select option:hover {
+  background-color: #4caf50; 
+  color:black; 
+}
+/* styling for the title */
+.center-box h1 {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 28px; 
+  font-weight: bold; 
+  text-transform: uppercase; 
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2); 
+}
+
+.center-box h1:hover {
+  color: #4caf50; 
+}
+
+
+.warning-message {
+  color: red !important ;
+  font-style: italic;
+  margin-top: 0px; 
+  font-size: 15px !important;
+  margin-left: 0px !important;
+}
